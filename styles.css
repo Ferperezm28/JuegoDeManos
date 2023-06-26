@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+    background-color: #5c2c46;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #813d5a;
+}
+.contenedor {
+    background-color: #f3eae8;
+    padding: 2rem 7rem;
+    border-radius: 14px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.imagen-resultado {
+    display: flex;
+    column-gap: 7rem;
+}
+.cont-resultado .cpu-resultado {
+    transform-origin: right;
+}
+.imagen-resultado img {
+    width: 200px;
+}
+.jugador-resultado img {
+    transform: rotate(90deg);
+}
+.cpu-resultado img {
+    transform: rotate(-90deg) rotateY(180deg);
+}
+.resultado {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+}
+.opcion-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+}
+.opcion-imagen:hover {
+    opacity: 1;
+}
+.opcion-imagen img {
+    width: 100px;
+}
+.opcion-imagen p {
+    font-size: 1.235rem;
+    margin-top: 1rem;
+}

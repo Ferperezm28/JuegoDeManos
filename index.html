@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME | Piedra Papel Tijera </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="cont-resultado">
+            <div class="imagen-resultado">
+                <span class="jugador-resultado" >
+                    <img src="./assets/hand.png" alt="" id="jugador">
+                </span>
+                <span class="cpu-resultado" >
+                    <img src="./assets/hand.png" alt="" id="cpu">
+                </span>
+            </div>
+            <span class="resultado" id="partida">A jugar!!</span>
+        </div>
+
+        <div class="opciones">
+            <span class="opcion-imagen" id="opcion-piedra">
+                <img src="./assets/puno.png" alt="piedra">
+                <p>Piedra</p>
+            </span>
+            <span class="opcion-imagen" id="opcion-papel">
+                <img src="./assets/palma.png" alt="papel">
+                <p>Papel</p>
+            </span>
+            <span class="opcion-imagen" id="opcion-tijera">
+                <img src="./assets/paz.png" alt="tijera">
+                <p>Tijera</p>
+            </span>
+        </div>
+    </section>
+    
+    <script src="hand.js"></script>
+</body>
+</html>
